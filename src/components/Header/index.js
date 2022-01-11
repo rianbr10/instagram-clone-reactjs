@@ -1,8 +1,8 @@
 import { AiOutlineSearch, AiFillHome } from 'react-icons/ai';
-import { RiMessengerLine } from 'react-icons/ri';
 import { BsPlusSquare } from 'react-icons/bs';
 import { MdOutlineExplore } from 'react-icons/md';
 import { FiHeart } from 'react-icons/fi';
+import { FiSend } from 'react-icons/fi'
 import { IconContext } from 'react-icons';
 
 import './style.css'
@@ -19,18 +19,18 @@ export function Header() {
           <IconContext.Provider value={{ color: '#8e8e8e' }}>
             <AiOutlineSearch />
           </IconContext.Provider>
-          <input placeholder="pesquisar" />
+          <input placeholder="Pesquisar" />
         </div>
 
         <div className="menu-icons">
-          <IconContext.Provider value={{ size: '26px' }}>
+          <IconContext.Provider value={{ size: '25px' }}>
 
             <div>
               <AiFillHome />
             </div>
 
             <div>
-              <RiMessengerLine />
+              <FiSend />
             </div>
 
             <div>
@@ -46,7 +46,7 @@ export function Header() {
             </div>
       
           </IconContext.Provider>
-          <img className="img-user" src="https://avatars.githubusercontent.com/u/84146275?v=4" />
+          <img className="img-user" src="https://media-exp1.licdn.com/dms/image/C4E03AQFNOy4hoxQVTw/profile-displayphoto-shrink_800_800/0/1635520746229?e=1647475200&v=beta&t=2SPrYTaOvOaRWTPPG6ECVwAkmmF7kYCMxxY0yGSHvYk" />
         </div>
 
       </div>

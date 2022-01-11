@@ -5,7 +5,7 @@
   padding: 10px 15px;
 }
 
-.header-post .infos-post .react-image .img-header-post {
+.header-post .infos-post .nodejs-image .img-header-post {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -14,7 +14,7 @@
   padding: 2px;
 }
 
-.header-post .infos-post .react-image {
+.header-post .infos-post .nodejs-image {
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -41,7 +41,6 @@
 .img-post img {
   width: 100%;
   object-fit: cover;
-  background: linear-gradient(#c82d8e, #f99d4c);
 }
 
 .footer-post {
@@ -71,20 +70,20 @@
   font-weight: 500;
 }
 
+.like .javascript-likes {
+  cursor: pointer;
+}
+
 .legend {
   margin: 6px 0 3px;
 }
 
+.legend .javascript-name {
+  cursor: pointer;
+}
+
 .legend p strong {
   font-weight: 500;
-}
-
-.legend .react-name {
-  cursor: pointer;
-}
-
-.like .react-curtidas {
-  cursor: pointer;
 }
 
 .time-post time {

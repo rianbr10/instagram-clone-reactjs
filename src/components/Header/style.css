@@ -1,6 +1,9 @@
 .header {
   background: var(--background);
   border-bottom: 1px solid var(--border);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header .container {
@@ -21,7 +24,10 @@
 
 .input-fake {
   background: var(--background-main);
-  border-radius: 3px;
+  width: 268px;
+  margin-left: 100px;
+  height: 36px;
+  border-radius: 5px;
   padding: 3px 10px;
   border: 1px solid var(--border);
   display: flex;
@@ -36,7 +42,7 @@
 .menu-icons {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
   cursor: pointer;
 }
 

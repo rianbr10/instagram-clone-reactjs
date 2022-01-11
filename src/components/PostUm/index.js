@@ -6,7 +6,7 @@ import { FiSend } from 'react-icons/fi'
 import { BsBookmark } from 'react-icons/bs'
 import { IconContext } from 'react-icons';
 
-export function Post() {
+export function PostUm() {
 
   return (
 
@@ -14,17 +14,17 @@ export function Post() {
 
       <header className="header-post">
         <div className="infos-post">
-          <div className="react-image">
-            <img className="img-header-post" src="https://ionicframework.com/docs/icons/logo-react-icon.png" />
+          <div className="js-image">
+            <img className="img-header-post" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" />
           </div>
-          <p className="info-reactjs">ReactJS</p>
+          <p className="info-reactjs">Javascript</p>
         </div>
 
         <FiMoreHorizontal className="tres-pontinhos" />
       </header>
 
       <div className="img-post">
-        <img src="https://wallpapercave.com/wp/wp4923981.jpg" />
+        <img src="https://marquesfernandes.com/wp-content/uploads/2020/01/1555172.jpg" />
       </div>
 
       <div className="footer-post">
@@ -42,17 +42,17 @@ export function Post() {
         </IconContext.Provider>
 
         <section className="like">
-          <span className="react-curtidas">70 curtidas</span>
+          <span className="javascript-likes">82 curtidas</span>
         </section>
 
         <div className="legend">
           <p>
-            <strong className="react-name">reactjs</strong> Este é um clone do Instagram feito em ReactJS.
+            <strong className="javascript-name">javascript</strong> console.log("Olá");.
           </p>
         </div>
 
         <div className="time-post">
-          <time>HÁ 25 MINUTOS.</time>
+          <time>HÁ 53 MINUTOS.</time>
         </div>
 
         <div className="comment">

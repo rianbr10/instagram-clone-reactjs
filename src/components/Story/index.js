@@ -8,20 +8,30 @@ export function Story(){
       <div className="user-elements">
 
         <div>
-          <img className="image-user-story" src="https://i.pinimg.com/236x/46/1a/f3/461af3e13a9657f267921652e6b7df53--black-actors-chris-delia.jpg" />
+          <img className="image-user-story" src="https://ionicframework.com/docs/icons/logo-react-icon.png" />
         </div>
 
-        <span>Cris cris</span>
+        <span className="reactjs">reactjs</span>
 
       </div>
 
       <div className="user-elements">
 
         <div>
-          <img className="image-user-story" src="https://i.pinimg.com/236x/46/1a/f3/461af3e13a9657f267921652e6b7df53--black-actors-chris-delia.jpg" />
+          <img className="image-user-story" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png" />
         </div>
 
-        <span>Cris cris</span>
+        <span className="javascript">javascript</span>
+
+      </div>
+
+      <div className="user-elements">
+
+        <div>
+          <img className="image-user-story" src="https://icons-for-free.com/iconfiles/png/512/js+library+long+shadow+nodejs+web+icon-1320184850167478047.png" />
+        </div>
+
+        <span className="nodejs">nodejs</span>
 
       </div>
 
