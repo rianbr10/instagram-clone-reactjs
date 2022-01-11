@@ -21,10 +21,6 @@ html {
   background: var(--background-main);
 }
 
-p, span {
-  background: var(--primary);
-}
-
 :root {
   --background-main: #f6f6f6;
   --background: #fff;
