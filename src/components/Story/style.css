@@ -41,3 +41,7 @@
 .nodejs {
   margin-left: 11px;
 }
+
+.image-user-story {
+  cursor: pointer;
+}
